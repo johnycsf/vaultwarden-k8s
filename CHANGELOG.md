@@ -1,5 +1,7 @@
 ## Unreleased
 
+- README conversion: looping `docs/manage-demo.gif` of the real Kubernetes `./manage.sh` menu, one-line pitch, four-line install, header sponsor badge.
+
 - Manage menu includes **Restore** (backup root, snapshot, or archive).
 
 - Single entrypoint: `./manage.sh` (install/update/backup helpers moved under `scripts/`).
