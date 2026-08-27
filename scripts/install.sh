@@ -12,7 +12,7 @@ ui_banner "Vaultwarden" "Kubernetes - storage + replicas chosen interactively"
 ui_steps_init 5
 
 ui_step "Checking host dependencies"
-ensure_host_deps k8s sqlite3
+ensure_host_deps k8s sqlite3 age zip unzip xz
 
 ui_step "StorageClass"
 configure_k8s_storage
